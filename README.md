@@ -111,30 +111,53 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How to Run This Project Locally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone this repository and navigate into it:
+    ```
+    git clone <repo-url>
+    cd <repo-name>
+    ```
 
-### Code Splitting
+2. Install all dependencies:
+    ```
+    npm install
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Navigate into the `sanity-ecommerce` folder and install all Sanity dependencies:
+    ```
+    cd sanity-ecommerce
+    npm install
+    ```
 
-### Analyzing the Bundle Size
+4. Create a `.env.local` file in the root directory and add the following:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```env
+    # SANITY
+    # Go to the API section of your Sanity project, create a new token and copy it
+    # Choose token permissions depending on your needs
+    # @link https://www.sanity.io/manage
+    NEXT_PUBLIC_SANITY_TOKEN=''
 
-### Making a Progressive Web App
+    # STRIPE
+    # Go to the developers section of your Stripe account and copy the keys
+    # @see https://dashboard.stripe.com/test/apikeys
+    NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=''
+    NEXT_PUBLIC_STRIPE_SECRET_KEY=''
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5. Run the following command to start Next.js:
+    ```
+    npm run dev
+    ```
 
-### Advanced Configuration
+6. Open a new terminal tab, navigate into the `sanity-ecommerce` folder and run the following command to start Sanity Studio:
+    ```
+    cd sanity-ecommerce
+    npm run dev
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+7. Go to `http://localhost:3000` to see the app.
+8. Go to `http://localhost:3333` to see the Sanity Studio and upload content there.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> **Note:** If you instead need to update content in Sanity Studio for the production version, go to [this link](https://emanuelefavero-ecommerce.sanity.studio/desk).
