@@ -1,0 +1,92 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px 7%;
+    transition: 0.5s;
+}
+
+.logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+ul {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px 20 px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.toogle-icon {
+    width: 50px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.srearch-box {
+    display: flex;
+    align-items: center;
+    background-color: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.srearch-box input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 6px;
+    color: #fff;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+.srearch-box input ::placeholder {
+    color: #fff;
+}
+
+.srearch-box img {
+    width: 200px;
+    cursor:  pointer;
+}
+
+.dark .navbar {
+    background: #0000;
+    color: #fff;
+}
+
+.dark .srearch-box {
+    background: #fff;
+}
+
+.dark .srearch-box input{
+    color: #222;
+}
+
+.dark .srearch-box input::placeholder{
+    color: #222;
+}
+
+.dark .srearch-box {
+    color: #fff;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background: #ced8ff;
+    transition: 0.5s;
+}
+
+.container .dark {
+    background: #222;
+}
