@@ -1,11 +1,20 @@
 # ANHA-The-Best-Online-Selling-App
 
 
-# E-Commerce Platform
+## Overview 📖
 
 This is a React application that simulates a basic e-commerce platform. The application demonstrates the use of React components, state management with Redux, routing with react-router, and API integration.
 
-## Features
+## Tech Stack Used 💻
+
+- HTML
+- CSS
+- JS
+- NextJS
+- Sanity
+- Integrating API for data collection and display
+
+## Features 🌟
 
 - **Redux for State Management**: The application uses Redux for state management. Alternatively, React's Context API can be used.
 
@@ -17,7 +26,9 @@ This is a React application that simulates a basic e-commerce platform. The appl
 
 - **Cart**: The cart page displays the items added to the cart. Each item has a title, price, and a "Remove from Cart" button.
 
-## Routes
+## Use 🌐
+
+`Routes`
 
 - `/product/:id`: This route loads the ProductPage component, where :id is the dynamic parameter representing the product ID.
 
@@ -25,7 +36,105 @@ This is a React application that simulates a basic e-commerce platform. The appl
 
 The Header component is always visible at the top of the page, regardless of which route is active.
 
-## State Management
+`State Management`
 
 The application uses Redux or React's Context API to manage the application's state, particularly for storing and updating the items in the cart. Actions and reducers (if using Redux) or a context provider (if using Context API) are implemented to handle adding and removing items from the cart.
 
+
+
+
+
+## Demo 📸
+
+### URL : 
+
+- Home Page/Landing Page
+
+
+
+- Cart Directory Page
+
+
+
+
+- Sell Item List Page
+
+
+
+- Payment Page
+
+
+
+
+## Getting Started with Create Next App 🚀
+
+In the project directory, pls run this several commands:
+
+- `npm start`: Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
+- `npm test`: Launches the test runner in the interactive watch mode.
+- `npm run build`: Builds the app for production to the `build` folder.
+- `npm run eject`: Removes the single build dependency from your project.
+
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
